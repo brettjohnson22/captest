@@ -35,6 +35,7 @@ const HomePage = () => {
             {car.year} {car.model} {car.make}
           </p>
         ))}
+
     </div>
   );
 };

@@ -16,7 +16,8 @@ import PrivateRoute from "./utils/PrivateRoute";
 
 function App() {
   return (
-    <div>
+    <>
+    <div class="big-container">
       <Navbar />
       <Routes>
         <Route
@@ -30,8 +31,9 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
